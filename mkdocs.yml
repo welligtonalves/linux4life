@@ -1,0 +1,12 @@
+site_name: Linux4life
+site_author: Welligton Alves
+theme:
+  name: material
+
+nav:
+- Home: index.md
+- About: about.md
+- Artigos:
+  - Docker: docker.md
+extra_css:
+- css/custom.css
