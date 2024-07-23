@@ -2,7 +2,7 @@
 
 # O que é Docker?
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnoy15Fxymg3RzmahZmewIDnN9k9ncJMZuJfuNwqGUCmd_f36yBJzPTVtqbil2N3JBCI&usqp=CAU" width="200">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnoy15Fxymg3RzmahZmewIDnN9k9ncJMZuJfuNwqGUCmd_f36yBJzPTVtqbil2N3JBCI&usqp=CAU" width="400">
 </p>
 
 
