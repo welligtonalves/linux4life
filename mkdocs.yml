@@ -12,8 +12,8 @@ theme:
 nav:
 - Home: index.md
 - About: about.md
-- Artigos:
+- Articles:
   - Docker: docker.md
-  - Criando Stack Portainer e Traefik: portainer-traefik.md
+  - Stack Portainer - Traefik: portainer-traefik.md
 extra_css:
 - css/custom.css
