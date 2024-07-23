@@ -1,8 +1,9 @@
 #Artigos e tutoriais
 
 # O que é Docker?
-
-  <img src="http://www.patrickbrandao.com/img/artigos/docker-icon-512.png" width="300">
+<p align="center">
+  <img src="http://www.patrickbrandao.com/img/artigos/docker-icon-512.png" width="100">
+</p>
 
 
 
