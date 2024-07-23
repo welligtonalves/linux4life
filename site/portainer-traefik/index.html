@@ -11,10 +11,8 @@
       
       
       
-        <link rel="prev" href="../about/">
+        <link rel="prev" href="../docker/">
       
-      
-        <link rel="next" href="../portainer-traefik/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Docker - Linux4life</title>
+        <title>Criando Stack Portainer e Traefik - Linux4life</title>
       
     
     
@@ -66,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#artigos-e-tutoriais" class="md-skip">
+        <a href="#traefik-no-docker-com-proxy-de-socket-da-tecnativa-cloudflare-e-portainer" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Docker
+              Criando Stack Portainer e Traefik
             
           </span>
         </div>
@@ -269,19 +267,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -290,7 +279,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -300,10 +288,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../portainer-traefik/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Criando Stack Portainer e Traefik
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -312,6 +318,84 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#traefik-no-docker-com-proxy-de-socket-da-tecnativa-cloudflare-e-portainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traefik no Docker com Proxy de Socket da Tecnativa, Cloudflare e Portainer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy-de-socket-do-docker-da-tecnativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proxy de Socket do Docker da Tecnativa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#portainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Portainer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iniciar-servicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iniciar Serviços
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Iniciar Serviços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opcoes-up-stop-restart-exclud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opções: up, stop, restart, exclud
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-favor-preencha-as-informacoes-da-sua-conta-cloudflare-o-dominio-a-ser-usado-e-o-endereco-de-e-mail-para-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por favor, preencha as informações da sua conta Cloudflare, o domínio a ser usado e o endereço de e-mail para notificações
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -341,8 +425,74 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#traefik-no-docker-com-proxy-de-socket-da-tecnativa-cloudflare-e-portainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traefik no Docker com Proxy de Socket da Tecnativa, Cloudflare e Portainer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy-de-socket-do-docker-da-tecnativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proxy de Socket do Docker da Tecnativa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#portainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Portainer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iniciar-servicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iniciar Serviços
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Iniciar Serviços">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opcoes-up-stop-restart-exclud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opções: up, stop, restart, exclud
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-favor-preencha-as-informacoes-da-sua-conta-cloudflare-o-dominio-a-ser-usado-e-o-endereco-de-e-mail-para-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por favor, preencha as informações da sua conta Cloudflare, o domínio a ser usado e o endereço de e-mail para notificações
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -357,29 +507,44 @@
                   
 
 
-<h1 id="artigos-e-tutoriais">Artigos e tutoriais</h1>
-<h1 id="o-que-e-docker">O que é Docker?</h1>
-<p><img src="http://www.patrickbrandao.com/img/artigos/docker-icon-512.png" width="300"></p>
-<p>Nos últimos anos, a tecnologia Docker emergiu como uma solução revolucionária no mundo do desenvolvimento de software, mudando fundamentalmente a maneira como as aplicações são construídas, enviadas e gerenciadas. Este artigo explora o conceito de Docker, seu funcionamento e por que se tornou uma ferramenta indispensável para desenvolvedores e administradores de sistemas.</p>
-<h2 id="o-que-e-docker_1">O que é Docker?</h2>
-<p>Docker é uma plataforma de contêinerização que permite aos desenvolvedores empacotar uma aplicação e suas dependências em um contêiner virtual isolado que pode rodar em qualquer sistema operacional que suporte Docker. Esses contêineres são leves, portáteis e garantem que a aplicação funcione de maneira uniforme e previsível, independentemente do ambiente local.</p>
-<h2 id="como-funciona-o-docker">Como Funciona o Docker?</h2>
-<p>O Docker utiliza a tecnologia de contêineres para encapsular uma aplicação e suas dependências em um contêiner isolado. Isso é feito utilizando recursos nativos do Linux, como cgroups e namespaces, que proporcionam isolamento de recursos e ambientes. O resultado é que cada contêiner tem seu próprio sistema de arquivos, CPU, memória, processos e configuração de rede, operando como uma máquina virtual leve, mas sem a necessidade de um sistema operacional separado.</p>
-<h2 id="por-que-docker-e-importante">Por Que Docker é Importante?</h2>
-<p>A popularidade do Docker pode ser atribuída a várias características vantajosas:</p>
-<ol>
-<li>
-<p><strong>Portabilidade</strong>: Uma vez que um contêiner Docker é criado, ele pode ser executado em qualquer sistema que tenha o Docker instalado. Isso elimina o problema comum de "funciona no meu computador", facilitando a colaboração e o desenvolvimento em diferentes plataformas.</p>
-</li>
-<li>
-<p><strong>Consistência e Isolamento</strong>: Docker garante que a aplicação funcione da mesma maneira em qualquer ambiente, pois o contêiner inclui tudo o que é necessário para executar a aplicação. O isolamento proporcionado pelos contêineres também aumenta a segurança, já que as aplicações não interferem umas nas outras.</p>
-</li>
-<li>
-<p><strong>Eficiência de Recursos</strong>: Contêineres compartilham o mesmo kernel do sistema operacional, mas são isolados em termos de processo e utilização de recursos. Isso os torna mais eficientes em termos de uso de recursos do que as máquinas virtuais tradicionais.</p>
-</li>
-</ol>
-<h2 id="conclusao">Conclusão</h2>
-<p>Docker transformou o desenvolvimento de software, oferecendo uma abordagem simplificada, mas poderosa, para a contêinerização de aplicações. Seu modelo de entrega, que garante portabilidade e consistência entre diferentes ambientes de desenvolvimento e produção, tornou-se um padrão na indústria. À medida que a tecnologia evolui, Docker continua a expandir suas capacidades e a integrar-se com outras ferramentas, solidificando sua posição como uma ferramenta essencial para modernizar infraestruturas de TI.</p>
+  <h1>Criando Stack Portainer e Traefik</h1>
+
+<div align="center">
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> - <img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/> - <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> - <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/> -  <img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/> - <img alt="Ansible" src="https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white"/>
+</div>
+
+<h2 id="traefik-no-docker-com-proxy-de-socket-da-tecnativa-cloudflare-e-portainer">Traefik no Docker com Proxy de Socket da Tecnativa, Cloudflare e Portainer</h2>
+<p>Traefik é um roteador de borda de código aberto que facilita a implantação fácil de serviços. Um aspecto muito interessante é que ele se integra nativamente com a maioria das tecnologias de cluster, como Kubernetes, Docker e Docker Swarm. O Traefik traz vantagens significativas em comparação com o software de proxy reverso comumente usado, porque foi criado com as práticas nativas da nuvem em mente, ou seja, foi projetado especificamente para computação em nuvem.
+ </p>
+
+<h2 id="proxy-de-socket-do-docker-da-tecnativa">Proxy de Socket do Docker da Tecnativa</h2>
+<p>Este é um proxy com melhorias de segurança para o Socket do Docker. Dar acesso ao seu Socket do Docker pode significar dar acesso de root ao seu host, ou até mesmo a todo o seu swarm, mas alguns serviços precisam se conectar a esse socket para reagir a eventos, etc. Usar este proxy permite bloquear qualquer coisa que você considere que esses serviços não devem fazer.</p>
+<h2 id="portainer">Portainer</h2>
+<p>O Portainer é uma interface web que interage com o Socket do Docker para criar novos contêineres e monitorá-los. O Portainer também pode ser usado para visualizar o cluster, gerenciar autenticação de usuário e controlar permissões de acesso ao cluster. Em resumo, o Portainer é uma aplicação para gerenciar seus contêineres, estejam eles em um cluster ou não.</p>
+<p>Para aumentar a segurança do nosso painel, você pode adicionar um middleware de autenticação usando as seguintes etiquetas:</p>
+<p>"traefik.http.routers.traefik.middlewares=authtraefik"</p>
+<p>"traefik.http.middlewares.authtraefik.basicauth.users=user:hashpassword"</p>
+
+<p>Para criar uma senha criptografada para o usuário, você pode usar a ferramenta htpasswd do pacote apache2-utils. Aqui estão os passos para gerar a senha criptografada:</p>
+<p>Instale o pacote apache2-utils no seu sistema. Você pode usar o gerenciador de pacotes específico para o seu sistema operacional. Por exemplo, no Ubuntu, você pode executar:</p>
+<p>sudo apt-get install apache2-utils</p>
+<p>Use a ferramenta htpasswd para gerar a senha criptografada. Execute o seguinte comando, substituindo com o nome de usuário desejado:</p>
+<p>Por exemplo, se o nome de usuário for "devops" e a senha criptografada for "devops", a etiqueta ficaria assim:</p>
+<p>echo $(htpasswd -nbB devops "devops") | sed -e s/\$/\$\$/g</p>
+<p>devops:$$2y$$05$$mUC2H0I4tDtlpW9j8c3E7uSFaQoQjsuHbPvPsou/nWBj2AcuMW0BC</p>
+<h2 id="iniciar-servicos">Iniciar Serviços</h2>
+<p>Iniciar Serviços</p>
+<p>Execute: bash services <Opções></p>
+<h3 id="opcoes-up-stop-restart-exclud">Opções: up, stop, restart, exclud</h3>
+<p>exemplo:</p>
+<p>bash services.sh up</p>
+<h3 id="por-favor-preencha-as-informacoes-da-sua-conta-cloudflare-o-dominio-a-ser-usado-e-o-endereco-de-e-mail-para-notificacoes">Por favor, preencha as informações da sua conta Cloudflare, o domínio a ser usado e o endereço de e-mail para notificações</h3>
+<p>CLOUDFLARE_EMAIL= email cloudflare</p>
+<p>CLOUDFLARE_API_KEY= cloudflare key</p>
+<p>HOSTNAME_TRAEFIK= traefik.mydomain.com</p>
+<p>HOSTNAME_PORTAINER= portainer.mydomain.com</p>
+<p>DOMAIN= *.mydomain.com</p>
+<p>EMAIL= traefiknotify@mydomain.com</p>
 
 
 
