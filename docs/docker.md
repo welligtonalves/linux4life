@@ -2,7 +2,7 @@
 
 # O que é Docker?
 <p align="center">
-  <img src="http://www.patrickbrandao.com/img/artigos/docker-icon-512.png" width="100">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnoy15Fxymg3RzmahZmewIDnN9k9ncJMZuJfuNwqGUCmd_f36yBJzPTVtqbil2N3JBCI&usqp=CAU" width="200">
 </p>
 
 
