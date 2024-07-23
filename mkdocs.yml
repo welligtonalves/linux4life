@@ -8,5 +8,6 @@ nav:
 - About: about.md
 - Artigos:
   - Docker: docker.md
+  - Criando Stack Portainer e Traefik: portainer-traefik.md
 extra_css:
 - css/custom.css
