@@ -2,6 +2,12 @@ site_name: Linux4life
 site_author: Welligton Alves
 theme:
   name: material
+  highlightjs: true
+  hljs_languages:
+  - yaml
+  - rust
+  logo: /img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png
+  favicon: /img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png
 
 nav:
 - Home: index.md

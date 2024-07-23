@@ -55,3 +55,6 @@ bash services.sh up
 <p>HOSTNAME_PORTAINER= portainer.mydomain.com</p>
 <p>DOMAIN= *.mydomain.com</p>
 <p>EMAIL= traefiknotify@mydomain.com</p>
+
+
+###ainda estou escrevendo!
