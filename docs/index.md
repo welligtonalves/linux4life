@@ -10,7 +10,6 @@ Oi, seja bem vindo ao meu blog !
  Meu nome é Welligton Alves e estou aqui para compartilhar um pouco sobre mim e minha experiência. 
 <br>
 <br>
-## Links
 - [LinkedIn](https://www.linkedin.com/in/welligton-alves-a6ab6a65//)
 - [GitHub](https://github.com/welligtonalves/)
 
