@@ -7,8 +7,8 @@ theme:
   hljs_languages:
   - yaml
   - rust
-  logo: /img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png
-  favicon: /img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png
+  logo: img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png
+  favicon: img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png
 
 nav:
 - Home: index.md
@@ -16,6 +16,7 @@ nav:
 - Articles:
   - Docker: docker.md
   - Stack Portainer - Traefik: portainer-traefik.md
+
 extra_css:
 - css/custom.css
 
