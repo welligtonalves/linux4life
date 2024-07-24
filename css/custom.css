@@ -1,4 +1,12 @@
-/* img {
-    width: 150px;  
-    height: auto;
-} */
+.title-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 200px; /* Ajuste a altura conforme necessário */
+}
+
+.title-with-image h1 {
+    margin-left: 10px;
+    line-height: 2; /* Ajuste para centralizar verticalmente */
+}
