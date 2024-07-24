@@ -21,9 +21,7 @@ extra_css:
 
 extra:
   social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/welligton-alves-a6ab6a65/
-    - icon: fontawesome/brands/github
-      link: https://github.com/welligtonalves/
-/
-
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/welligton-alves-a6ab6a65/
+  - icon: fontawesome/brands/github
+    link: https://github.com/welligtonalves/
