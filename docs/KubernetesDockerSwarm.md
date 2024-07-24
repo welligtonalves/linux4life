@@ -49,7 +49,7 @@ O Docker Swarm conta com a segurança da camada de transporte (TLS) para realiza
 
 O Kubernetes oferece suporte a vários protocolos de segurança, como RBAC, SSL/TLS, gerenciamento de segredos, políticas e assim por diante.
 
-# Balanceamento de carga
+# 9. Balanceamento de carga
 
 O Docker Swarm suporta balanceamento de carga automático e usa DNS.
 
