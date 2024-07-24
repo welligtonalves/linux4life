@@ -16,6 +16,8 @@ nav:
   - Docker: docker.md
   - Stack Portainer - Traefik: portainer-traefik.md
   - Diferença entre Kubernetes e Docker Swarm: KubernetesDockerSwarm.md
+  - Ansible: ansible.md
+  - Terraform: terraform.md
 
 extra_css:
 - css/custom.css
