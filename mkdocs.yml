@@ -1,4 +1,5 @@
 site_name: Linux4life
+repo_url: https://github.com/welligtonalves/linux4life.git
 site_author: Welligton Alves
 theme:
   name: material

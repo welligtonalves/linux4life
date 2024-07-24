@@ -29,9 +29,6 @@ Atualmente, atuo na sustentação do **meuping.io**, uma empresa de assinatura e
 
 - **Sr. Luiz Laercio Fazioni:** Gerente de TI da Eucatur na época e atualmente na Eulabs Soluções.
 - **Clayton:** Amigo e mentor que conheci em 2011, que me incentivou profundamente a explorar e dominar o mundo do Linux.
-- **Gean Bertani** Incentivou a focar em documentação e na criação de tutoriais, visando aprimorar a partilha de conhecimentos e experiências. Com isso me veio a ideia de criar meu
-blog e compatilhar um pouco do meu conhecimento. 
-
 
 ## Filosofia
 
