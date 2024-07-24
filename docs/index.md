@@ -7,12 +7,11 @@
 # Bem-vindo ao Linux4life
 
 
-## Links
 <a href="https://www.linkedin.com/in/welligton-alves-a6ab6a65/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="25">
 </a>
 <a href="https://github.com/welligtonalves/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="20">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="25">
 </a>
 <br>
 <div align="center">
