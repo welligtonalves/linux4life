@@ -406,6 +406,20 @@
 <li><strong>Kubernetes</strong>: Ideal para empresas que precisam de uma solução robusta de orquestração de containers que pode suportar aplicações complexas e críticas. Preferido para ambientes que operam com microserviços.</li>
 <li><strong>Docker Swarm</strong>: Adequado para pequenas e médias empresas ou para projetos que precisam de uma solução simples e rápida para gerenciar containers.</li>
 </ul>
+<p>Em algumas situações, o Kubernetes pode ser excessivamente complicado e levar a uma perda de produtividade.</p>
+<h2 id="6-disponibilidade-e-dimensionamento">6. Disponibilidade e dimensionamento</h2>
+<p>O Docker Swarm oferece alta disponibilidade, pois você pode duplicar facilmente os microsserviços no Docker Swarm. Além disso, o Docker Swarm tem um tempo de implantação mais rápido. 
+Por outro lado, não fornece dimensionamento automático.</p>
+<p>O Kubernetes é, por natureza, altamente disponível, tolerante a falhas e autorrecuperável. Ele também fornece dimensionamento automático e pode substituir pods defeituosos, se necessário.</p>
+<h1 id="7-monitoramento">7. Monitoramento</h1>
+<p>O Docker Swarm oferece suporte ao monitoramento apenas por meio de aplicativos de terceiros. Não há mecanismos de monitoramento embutidos.</p>
+<p>Por outro lado, o Kubernetes possui monitoramento integrado e oferece suporte à integração com ferramentas de monitoramento de terceiros.</p>
+<h1 id="8-seguranca">8. Segurança</h1>
+<p>O Docker Swarm conta com a segurança da camada de transporte (TLS) para realizar tarefas relacionadas à segurança e ao controle de acesso.</p>
+<p>O Kubernetes oferece suporte a vários protocolos de segurança, como RBAC, SSL/TLS, gerenciamento de segredos, políticas e assim por diante.
+Balanceamento de carga</p>
+<p>O Docker Swarm suporta balanceamento de carga automático e usa DNS.</p>
+<p>O Kubernetes não possui um mecanismo de balanceamento de carga automático. No entanto, o Nginx Ingress ou Traefik pode servir como balanceador de carga para cada serviço no cluster.</p>
 <p>A escolha entre Kubernetes e Docker Swarm dependerá das necessidades específicas de escalabilidade, complexidade e recursos da infraestrutura e da aplicação.</p>
 
 
