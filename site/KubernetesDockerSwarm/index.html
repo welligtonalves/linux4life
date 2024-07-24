@@ -11,6 +11,8 @@
       
       
       
+        <link rel="prev" href="../portainer-traefik/">
+      
       
       
       <link rel="icon" href="../img/toppng.com-enguin-tux-linux-svg-clip-arts-360-x-591-px-360x591.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Experiencias - Linux4life</title>
+        <title>Diferença entre Kubernetes e Docker Swarm - Linux4life</title>
       
     
     
@@ -61,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#artigos-e-tutoriais" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -92,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Experiencias
+              Diferença entre Kubernetes e Docker Swarm
             
           </span>
         </div>
@@ -221,17 +228,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -245,7 +254,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Articles
@@ -298,10 +307,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../KubernetesDockerSwarm/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -310,6 +328,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -339,6 +358,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -353,9 +374,53 @@
                   
 
 
-  <h1>Experiencias</h1>
+<h1 id="artigos-e-tutoriais">Artigos e tutoriais</h1>
+<p align="center">
+  <img src="/img/k8s_vs_docker.png">
+</p>
 
-<p>ainda estou escrevendo!</p>
+<h1 id="diferencas-entre-kubernetes-e-docker-swarm">Diferenças entre Kubernetes e Docker Swarm</h1>
+<p>Kubernetes e Docker Swarm são orquestradores de containers que possuem diferenças significativas em termos de complexidade, funcionalidades.</p>
+<h2 id="1-complexidade-e-flexibilidade">1. Complexidade e Flexibilidade</h2>
+<ul>
+<li><strong>Kubernetes</strong>: Mais complexo e oferece uma gama mais ampla de funcionalidades, tornando-o mais flexível e adequado para ambientes de produção complexos. Suporta recursos como balanceamento de carga, escalonamento automático e gerenciamento de configurações.</li>
+<li><strong>Docker Swarm</strong>: Mais simples e fácil de configurar, ideal para aplicações menos complexas ou para equipes que preferem uma curva de aprendizado menos íngreme.</li>
+</ul>
+<h2 id="2-escalabilidade">2. Escalabilidade</h2>
+<ul>
+<li><strong>Kubernetes</strong>: Conhecido pela sua alta escalabilidade e robustez, capaz de gerenciar clusters de containers em grande escala de forma eficiente.</li>
+<li><strong>Docker Swarm</strong>: Suporta escalabilidade, mas é considerado menos eficiente do que o Kubernetes para cargas de trabalho muito grandes ou complexas.</li>
+</ul>
+<h2 id="3-funcionalidades">3. Funcionalidades</h2>
+<ul>
+<li><strong>Kubernetes</strong>: Oferece uma vasta gama de funcionalidades como gerenciamento de estado, volumes persistentes, namespaces para segregar diferentes ambientes dentro do mesmo cluster, e suporte para múltiplos clouds e on-premise simultaneamente.</li>
+<li><strong>Docker Swarm</strong>: Funcionalidades mais limitadas, mas integra-se bem com o ecossistema Docker e é ótimo para deployments mais simples.</li>
+</ul>
+<h2 id="4-comunidade-e-suporte">4. Comunidade e Suporte</h2>
+<ul>
+<li><strong>Kubernetes</strong>: Possui uma comunidade grande e ativa, com suporte extensivo de várias empresas e provedores de serviços em nuvem. Inclui plugins, ferramentas e extensões que são frequentemente atualizadas.</li>
+<li><strong>Docker Swarm</strong>: Comunidade menor e menos recursos dedicados em comparação ao Kubernetes.</li>
+</ul>
+<h2 id="5-casos-de-uso">5. Casos de Uso</h2>
+<ul>
+<li><strong>Kubernetes</strong>: Ideal para empresas que precisam de uma solução robusta de orquestração de containers que pode suportar aplicações complexas e críticas. Preferido para ambientes que operam com microserviços.</li>
+<li><strong>Docker Swarm</strong>: Adequado para pequenas e médias empresas ou para projetos que precisam de uma solução simples e rápida para gerenciar containers.</li>
+</ul>
+<p>Em algumas situações, o Kubernetes pode ser excessivamente complicado e levar a uma perda de produtividade.</p>
+<h2 id="6-disponibilidade-e-dimensionamento">6. Disponibilidade e dimensionamento</h2>
+<p>O Docker Swarm oferece alta disponibilidade, pois você pode duplicar facilmente os microsserviços no Docker Swarm. Além disso, o Docker Swarm tem um tempo de implantação mais rápido. 
+Por outro lado, não fornece dimensionamento automático.</p>
+<p>O Kubernetes é, por natureza, altamente disponível, tolerante a falhas e autorrecuperável. Ele também fornece dimensionamento automático e pode substituir pods defeituosos, se necessário.</p>
+<h1 id="7-monitoramento">7. Monitoramento</h1>
+<p>O Docker Swarm oferece suporte ao monitoramento apenas por meio de aplicativos de terceiros. Não há mecanismos de monitoramento embutidos.</p>
+<p>Por outro lado, o Kubernetes possui monitoramento integrado e oferece suporte à integração com ferramentas de monitoramento de terceiros.</p>
+<h1 id="8-seguranca">8. Segurança</h1>
+<p>O Docker Swarm conta com a segurança da camada de transporte (TLS) para realizar tarefas relacionadas à segurança e ao controle de acesso.</p>
+<p>O Kubernetes oferece suporte a vários protocolos de segurança, como RBAC, SSL/TLS, gerenciamento de segredos, políticas e assim por diante.
+Balanceamento de carga</p>
+<p>O Docker Swarm suporta balanceamento de carga automático e usa DNS.</p>
+<p>O Kubernetes não possui um mecanismo de balanceamento de carga automático. No entanto, o Nginx Ingress ou Traefik pode servir como balanceador de carga para cada serviço no cluster.</p>
+<p>A escolha entre Kubernetes e Docker Swarm dependerá das necessidades específicas de escalabilidade, complexidade e recursos da infraestrutura e da aplicação.</p>
 
 
 
